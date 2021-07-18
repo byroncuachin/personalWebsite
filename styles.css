@@ -53,5 +53,9 @@ span[name="initials"]{
 
 .fab:hover{
     transition: color 0.2s ease;
-    color: #212529;
+    color: #1d4e89;
+}
+
+#contact{
+    color: #1d4e89;
 }
