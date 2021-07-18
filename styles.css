@@ -1,0 +1,57 @@
+body{
+    background-color: #6c757d;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section.intro{
+    background-color: #6c757d;
+}
+
+h1{
+    color: #dee2e6;
+}
+
+ul{
+    list-style-type: none;
+    background-color: #495057
+}
+
+p{
+    color: #ced4da;
+}
+
+footer{
+    background-color: #343a40;
+}
+
+span[name="initials"]{
+    color: #1d4e89;
+}
+
+.card{
+    background-color: #495057;
+    color: #ced4da; 
+}
+
+.list-group-item{
+    background-color: transparent;
+    color: #ced4da; 
+}
+
+.skills{
+    height: 250px;
+}
+
+.projects{
+    background-color: #495057;
+}
+
+.fab{
+    font-size: 3em;
+    color: #ced4da; 
+}
+
+.fab:hover{
+    transition: color 0.2s ease;
+    color: #212529;
+}
