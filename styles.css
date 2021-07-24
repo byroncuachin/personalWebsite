@@ -9,15 +9,50 @@ section.intro{
 
 h1{
     color: #dee2e6;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+h2{
+    color: #dee2e6;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h3{
+    color: #dee2e6;
+}
+
+h4{
+    color: #212529;
+}
+
+h4.projTitle{
+    color: #dee2e6;
 }
 
 ul{
     list-style-type: none;
-    background-color: #495057
+}
+
+li{
+    color: #dee2e6;
 }
 
 p{
-    color: #ced4da;
+    color: #dee2e6;
+}
+
+p.lead{
+    font-weight: 400;
+}
+
+p.small{
+    color: #fca311;
+}
+
+p.projDesc{
+    color: #dee2e6
 }
 
 footer{
@@ -25,17 +60,31 @@ footer{
 }
 
 span[name="initials"]{
-    color: #1d4e89;
+    color: #fca311;
+}
+
+img{
+    width: 100%;
+}
+
+.btn-outline-light{
+    color: #fca311;
+    border-color: #dee2e6;
+}
+
+.btn-outline-light:hover{
+    transition: background-color 0.4s ease;
+    background-color: #fca311;
 }
 
 .card{
     background-color: #495057;
-    color: #ced4da; 
+    color: #dee2e6;
 }
 
 .list-group-item{
     background-color: transparent;
-    color: #ced4da; 
+    color: #dee2e6;
 }
 
 .skills{
@@ -48,14 +97,21 @@ span[name="initials"]{
 
 .fab{
     font-size: 3em;
-    color: #ced4da; 
+    color: #dee2e6;
 }
 
-.fab:hover{
-    transition: color 0.2s ease;
-    color: #1d4e89;
+.far{
+    font-size: 3em;
+    color: #dee2e6;
+}
+
+.contactIcon:hover{
+    transition: color 0.4s ease;
+    color: #fca311;
 }
 
 #contact{
-    color: #1d4e89;
+    color: #fca311;
+    font-weight: 600;
 }
+
