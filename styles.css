@@ -1,34 +1,38 @@
 body{
-    background-color: #6c757d;
+    background-color: #1d3557;
     font-family: 'Montserrat', sans-serif;
 }
 
 section.intro{
-    background-color: #6c757d;
+    background-color: #1d3557;
+}
+
+section.projects{
+    background-color: #192e4b;
 }
 
 h1{
-    color: #dee2e6;
+    color: #f1faee;
     font-size: 4rem;
     font-weight: 600;
 }
 
 h2{
-    color: #dee2e6;
+    color: #a8dadc;
     font-size: 2.5rem;
     font-weight: 600;
 }
 
 h3{
-    color: #dee2e6;
+    color: #f1faee;
 }
 
 h4{
-    color: #212529;
+    color: #f1faee;
 }
 
 h4.projTitle{
-    color: #dee2e6;
+    color: #f1faee;
 }
 
 ul{
@@ -36,11 +40,11 @@ ul{
 }
 
 li{
-    color: #dee2e6;
+    color: #f1faee;
 }
 
 p{
-    color: #dee2e6;
+    color: #f1faee;
 }
 
 p.lead{
@@ -48,19 +52,15 @@ p.lead{
 }
 
 p.small{
-    color: #fca311;
+    color: #e63946;
 }
 
 p.projDesc{
-    color: #dee2e6
-}
-
-footer{
-    background-color: #343a40;
+    color: #f1faee
 }
 
 span[name="initials"]{
-    color: #fca311;
+    color: #e63946;
 }
 
 img{
@@ -68,50 +68,56 @@ img{
 }
 
 .btn-outline-light{
-    color: #fca311;
-    border-color: #dee2e6;
+    color: #e63946;
+    border-color: #457b9d;
 }
 
 .btn-outline-light:hover{
     transition: background-color 0.4s ease;
-    background-color: #fca311;
+    background-color: #e63946;
+    border-color: #457b9d;
 }
 
 .card{
-    background-color: #495057;
-    color: #dee2e6;
+    border-color: #457b9d;
+    background-color: transparent;
+    /* color: #f1faee; */
+}
+
+.introCard{
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .list-group-item{
     background-color: transparent;
-    color: #dee2e6;
+    color: #f1faee;
 }
 
 .skills{
     height: 250px;
 }
 
-.projects{
-    background-color: #495057;
-}
-
 .fab{
     font-size: 3em;
-    color: #dee2e6;
+    color: #457b9d;
 }
 
 .far{
     font-size: 3em;
-    color: #dee2e6;
+    color: #457b9d;
 }
 
 .contactIcon:hover{
     transition: color 0.4s ease;
-    color: #fca311;
+    color: #e63946;
 }
 
 #contact{
-    color: #fca311;
+    color: #a8dadc;
     font-weight: 600;
 }
 
+.binoculars{
+    color: #a8dadc;
+}
